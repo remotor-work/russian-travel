@@ -2,6 +2,7 @@
   margin: 0 auto;
   outline: 1px solid green;
   padding: 0;
+  min-width: 320px;
   max-width: 1280px;
   font-family: Inter;
 }
