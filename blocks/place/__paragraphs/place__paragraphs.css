@@ -1,0 +1,33 @@
+.place__paragraphs {
+  grid-row: 2/3;
+  grid-column: 7/12;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 163%;
+  color: white;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraphs {
+    grid-column: 7/13;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .place__paragraphs {
+    grid-row: 4/5;
+    grid-column: 1/13;
+    max-width: 520px;
+  }
+}
