@@ -6,7 +6,7 @@
   color: white;
 }
 
-@media screen and (width-max: 768px) {
+@media screen and (max-width: 768px) {
   .footer {
     padding-right: 24px;
     padding-left: 24px;
